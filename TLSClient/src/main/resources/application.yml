@@ -1,0 +1,6 @@
+db:
+  username: client
+  password: client
+
+server:
+  port: 8090
