@@ -1,6 +1,6 @@
 db:
   username: server
   password: server
-
+  path: TLSServer/src/main/resources/server.db
 server:
   port: 8080

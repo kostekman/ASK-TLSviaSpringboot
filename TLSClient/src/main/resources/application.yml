@@ -1,6 +1,12 @@
 db:
   username: client
   password: client
+  path: TLSClient/src/main/resources/client.db
 
+tls:
+  server:
+    url: http://127.0.0.1:8080
+  algorithmsUsed: RSA, AES
 server:
   port: 8090
+
