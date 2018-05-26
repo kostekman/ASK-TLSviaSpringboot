@@ -1,0 +1,88 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 15396980257768104320 (0xd5ad0ff7bdf86180)
+    Signature Algorithm: shaWithRSAEncryption
+        Issuer: C=PL, L=Krakow, O=AGH, CN=SSL-CA
+        Validity
+            Not Before: May 23 09:40:33 2018 GMT
+            Not After : May 22 09:40:33 2020 GMT
+        Subject: C=PL, L=Krakow, O=AGH, CN=tlsserver.org/emailAddress=tlsserver@koscinsa.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:f4:13:1f:20:6d:bc:77:09:f5:20:fb:8a:2b:85:
+                    9a:d5:be:35:47:ed:b6:62:1f:9d:24:f0:ed:e4:11:
+                    87:7d:a7:84:50:a8:94:04:08:88:5e:e7:59:ef:f8:
+                    5f:ab:86:54:f6:10:c8:3a:85:da:f2:ef:3c:c7:02:
+                    35:ec:1c:8c:c8:2c:cf:9e:1d:22:3b:68:88:1f:04:
+                    15:06:79:8e:3c:2f:6b:c5:9d:bb:a9:13:f9:89:d5:
+                    37:b2:2e:a2:db:f9:30:66:44:0d:7f:3c:15:39:28:
+                    b1:0b:ee:bb:3a:9e:20:c4:32:7a:2e:a3:a5:02:65:
+                    4e:12:f1:be:2b:00:68:b3:11:ef:e1:ae:18:49:33:
+                    e1:30:a1:37:54:3b:c1:cf:5b:e6:2d:9b:4d:39:31:
+                    af:04:0e:7b:87:73:db:2e:13:63:5e:3a:75:de:aa:
+                    c0:2d:86:82:69:86:f6:d7:67:8c:92:55:c3:ce:2c:
+                    2a:8e:c8:05:d7:44:e1:0c:8b:33:ff:b8:12:2c:b2:
+                    8e:58:ba:9d:85:f6:61:b5:9d:60:65:94:15:71:0d:
+                    cb:e8:8a:e4:de:4b:c0:7b:9c:88:0e:bc:2c:85:e0:
+                    6c:d4:5c:06:24:53:40:b5:bb:00:38:24:61:18:08:
+                    d4:a4:43:cd:f7:ca:81:1b:44:ff:15:38:45:75:d7:
+                    ff:0d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Subject Key Identifier: 
+                9C:71:4F:62:DF:A3:EA:3A:B9:1A:2C:E0:B9:44:B8:BA:DC:A6:83:B6
+            X509v3 Authority Key Identifier: 
+                keyid:8B:15:05:E1:A9:9C:D8:33:2D:3E:37:C0:98:80:23:23:CE:D8:77:A8
+
+            X509v3 Subject Alternative Name: 
+                email:tlsserver@koscinsa.com
+    Signature Algorithm: shaWithRSAEncryption
+         39:b4:c1:bd:c7:64:de:23:1e:9a:4c:d2:31:20:bd:61:96:b2:
+         4c:d5:03:5f:cf:19:a9:d2:6f:1f:42:3c:21:8a:b3:04:b3:12:
+         e8:af:76:61:d6:1d:7d:89:8c:63:96:2b:13:fa:c1:d3:aa:a8:
+         c4:33:57:58:6d:91:9b:cf:6e:0d:fd:be:23:7b:d9:17:84:23:
+         2c:d4:81:a9:db:d5:09:65:fb:f2:96:77:a2:63:50:b8:02:4c:
+         db:54:f0:8c:fe:5e:8a:30:9d:4c:d5:a4:81:fb:49:ae:42:52:
+         b7:6b:e6:0b:4d:dc:80:3f:09:4c:f6:2f:86:8a:95:ab:ee:b2:
+         75:ca:5d:1d:58:34:7f:a4:8c:40:4f:fb:d1:10:58:66:84:63:
+         0a:79:01:ea:74:7f:09:83:6d:84:8f:6f:92:7e:46:6c:3c:53:
+         13:68:13:c5:4d:98:c3:49:ae:94:b2:51:72:c5:a1:d3:c9:ca:
+         de:dc:3c:bd:a8:7f:3d:95:ec:4d:09:66:b5:19:9f:89:6b:4d:
+         50:93:87:20:ea:cf:76:7e:d3:8b:80:e0:6b:b3:bc:42:1a:1d:
+         d1:ef:4e:6b:1a:10:7a:63:a0:f0:93:1c:b7:6c:e5:19:62:c0:
+         fa:c3:b3:c0:15:d1:69:5a:34:ca:5d:68:74:93:0e:97:e4:30:
+         ec:b4:94:90
+-----BEGIN CERTIFICATE-----
+MIIDyjCCAragAwIBAgIJANWtD/e9+GGAMAkGBSsOAwIPBQAwPTELMAkGA1UEBhMC
+UEwxDzANBgNVBAcMBktyYWtvdzEMMAoGA1UECgwDQUdIMQ8wDQYDVQQDDAZTU0wt
+Q0EwHhcNMTgwNTIzMDk0MDMzWhcNMjAwNTIyMDk0MDMzWjBrMQswCQYDVQQGEwJQ
+TDEPMA0GA1UEBwwGS3Jha293MQwwCgYDVQQKDANBR0gxFjAUBgNVBAMMDXRsc3Nl
+cnZlci5vcmcxJTAjBgkqhkiG9w0BCQEWFnRsc3NlcnZlckBrb3NjaW5zYS5jb20w
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD0Ex8gbbx3CfUg+4orhZrV
+vjVH7bZiH50k8O3kEYd9p4RQqJQECIhe51nv+F+rhlT2EMg6hdry7zzHAjXsHIzI
+LM+eHSI7aIgfBBUGeY48L2vFnbupE/mJ1TeyLqLb+TBmRA1/PBU5KLEL7rs6niDE
+Mnouo6UCZU4S8b4rAGizEe/hrhhJM+EwoTdUO8HPW+Ytm005Ma8EDnuHc9suE2Ne
+OnXeqsAthoJphvbXZ4ySVcPOLCqOyAXXROEMizP/uBIsso5Yup2F9mG1nWBllBVx
+DcvoiuTeS8B7nIgOvCyF4GzUXAYkU0C1uwA4JGEYCNSkQ833yoEbRP8VOEV11/8N
+AgMBAAGjgaYwgaMwCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBkAwCwYDVR0P
+BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMB0GA1UdDgQWBBSccU9i36PqOrka
+LOC5RLi63KaDtjAfBgNVHSMEGDAWgBSLFQXhqZzYMy0+N8CYgCMjzth3qDAhBgNV
+HREEGjAYgRZ0bHNzZXJ2ZXJAa29zY2luc2EuY29tMAkGBSsOAwIPBQADggEBADm0
+wb3HZN4jHppM0jEgvWGWskzVA1/PGanSbx9CPCGKswSzEuivdmHWHX2JjGOWKxP6
+wdOqqMQzV1htkZvPbg39viN72ReEIyzUganb1Qll+/KWd6JjULgCTNtU8Iz+Xoow
+nUzVpIH7Sa5CUrdr5gtN3IA/CUz2L4aKlavusnXKXR1YNH+kjEBP+9EQWGaEYwp5
+Aep0fwmDbYSPb5J+Rmw8UxNoE8VNmMNJrpSyUXLFodPJyt7cPL2ofz2V7E0JZrUZ
+n4lrTVCThyDqz3Z+04uA4GuzvEIaHdHvTmsaEHpjoPCTHLds5RliwPrDs8AV0Wla
+NMpdaHSTDpfkMOy0lJA=
+-----END CERTIFICATE-----

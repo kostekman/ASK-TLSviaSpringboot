@@ -63,11 +63,6 @@ public class KeyStoreInitializer {
         KeyStore keyStore = null;
 
         try {
-            // Load CAs from an InputStream
-            // (could be from a resource or ByteArrayInputStream or ...)
-
-
-            // Create a KeyStore containing our trusted CAs
             Certificate ca = getCertificateFromPath("./TLSServer/src/main/resources/keystore/ca.crt");
             Certificate ownCertificate = getCertificateFromPath("./TLSServer/src/main/resources/keystore/server.crt");
 
@@ -77,7 +72,6 @@ public class KeyStoreInitializer {
             keyStore.setCertificateEntry("ca", ca);
             keyStore.setCertificateEntry("server", ownCertificate);
 
-            // Create a TrustManager that trusts the CAs in our KeyStore
             String tmfAlgorithm = TrustManagerFactory.getDefaultAlgorithm();
             TrustManagerFactory tmf = TrustManagerFactory.getInstance(tmfAlgorithm);
             tmf.init(keyStore);
@@ -91,13 +85,11 @@ public class KeyStoreInitializer {
 
     private static Certificate getCertificateFromPath(String path) throws Exception {
         CertificateFactory cf = CertificateFactory.getInstance("X.509");
-        // From https://www.washington.edu/itconnect/security/ca/load-der.crt
         InputStream is = new BufferedInputStream(new FileInputStream(path));
         InputStream caInput = new BufferedInputStream(is);
         Certificate ca;
         try {
             ca = cf.generateCertificate(caInput);
-            // System.out.println("ca=" + ((X509Certificate) ca).getSubjectDN());
         } finally {
             caInput.close();
         }
